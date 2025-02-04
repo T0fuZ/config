@@ -1,0 +1,52 @@
+{
+    // insert date plugin for quick log ctrl shift I
+    "insertDateString.format": "YYYY-MM-DD hh:mm:ss ",
+
+    // who needs that
+    "extensions.autoCheckUpdates": false,
+
+    // old school
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    // chrods mess up remote screen or tmux
+    "terminal.integrated.allowChords": false,
+
+    // we no like bold
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Consolas",
+    // no b old no bold ! get it?
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "normal",
+
+    // gotta see trough code chats etc
+    "glassit.alpha": 240,
+    "breadcrumbs.enabled": true, // I like that
+
+    // kill the vs quick suggest eagerness come on people
+    "editor.quickSuggestionsDelay": 1000,
+
+    // if i want whitespace render i use hex
+    "editor.renderWhitespace": "none",
+    // really?
+    "editor.guides.indentation": false,
+    // yeah i use that too
+    "remote.SSH.remotePlatform": {
+    },
+    // :D
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    // please this
+    "vim.useSystemClipboard": true,
+
+    // squiggle this
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.startupEditor": "none",
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorTheme": "Monokai",
+    // directly spawn virtual env
+    // "python.defaultInterpreterPath": "c:\\temp\\bin\\venvs\\someenv\\Scripts\\python.exe"
+}
