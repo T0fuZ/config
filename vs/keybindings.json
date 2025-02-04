@@ -1,0 +1,17 @@
+[
+    // using ` for switching focus between terminal and code. like for real people who does not use that?
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+    // in case multiple terminals you can use this to jump up down in temrinal list like vim
+    { "key": "ctrl+shift+j", "command": "workbench.action.terminal.focusNext" },
+    { "key": "ctrl+shift+k", "command": "workbench.action.terminal.focusPrevious" },
+
+    // unless you are some mental power, i like to rename my terminals
+    { "key": "ctrl+shift+r", "command": "workbench.action.terminal.rename"},
+
+    // sometimes i need to disable vim to with this toggle!
+    {
+        "command": "toggleVim",
+        "key": "ctrl+k ctrl+v"
+    }
+]
